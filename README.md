@@ -1,4 +1,5 @@
-<h2>Plugin to style input[type=range]. Works in modern opera, ff and chrome.</h2>
+<h2>Plugin to style input[type=range].</h2>
+<p>Works in modern opera, ff and chrome.</p>
 
 <h3>Usage:</h3>
 <code><pre>
