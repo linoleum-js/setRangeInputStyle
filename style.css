@@ -1,0 +1,78 @@
+body {
+    font: 16px arial, helvetica, sans-serif;
+}
+
+h2 {
+    margin: 10px 0 0;
+}
+
+.v-input,
+.h-input {
+    width: 6px;
+    height: 250px;
+    background-color: #ccc;
+    border-radius: 4px;
+    border: 1px solid #000;
+    position: relative;
+    padding: 12px 0 0 0;
+    cursor: pointer;
+    margin: 25px;
+}
+
+.v-bar-wrap,
+.h-bar-wrap {
+    height: 250px;
+    width: 6px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.v-progress,
+.h-progress {
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    background-color: #000;
+    border-radius: 2px;
+}
+
+.v-bar,
+.h-bar {
+    height: 12px;
+    width: 12px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    left: -4px;
+    bottom: 100%;
+    z-index: 1;
+}
+
+.h-input {
+    height: 6px;
+    width: 250px;
+    padding: 0 12px 0 0;
+    margin: 15px 0 0;
+}
+
+.h-bar-wrap {
+    width: 250px;
+    height: 6px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.h-progress {
+    height: 4px;
+    width: 100%;
+}
+
+.h-bar {
+    bottom: -4px;
+    left: 100%;
+}
