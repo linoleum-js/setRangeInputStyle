@@ -15,3 +15,4 @@
     leading: false || true // set true, if event must be triggered on mouse moving, not only on drag end
   });
 </pre></code>
+C4DT-4CG4-MOOU-CTTF-PB3L-ZH9E
